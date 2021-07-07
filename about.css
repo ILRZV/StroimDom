@@ -29,3 +29,9 @@
     margin: 20px 0px 20px 20px;
     float: right;
 }
+
+@media screen and (max-device-width:560px) {
+    .text {
+        margin: 30px;
+    }
+}

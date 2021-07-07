@@ -46,6 +46,10 @@
     height: 300px;
 }
 
+.forms_text  {
+    font-weight: bold;
+}
+
 .form_button {
     align-self: center;
     padding: 10px 10px;
@@ -86,10 +90,10 @@
     .contacts {
         width: 90%;
     }
-    .forms {
+    #forms {
         background-color: rgba(224, 222, 222, 0.493);
         margin-top: 100px;
-        height: 700px;
+        height: 800px;
         width: 80%;
         font-size: 40px;
     }
@@ -103,11 +107,19 @@
     .comment-input {
         width: 420px;
         height: 300px;
+        margin-bottom: 100px;
+    }
+
+    .forms_text  {
+        font-size: 30px;
     }
 
     .form_button {
         height: 70px;
         width: 250px;
         font-size: 35px;
+    }
+    .script {
+        margin-top: 150px;
     }
 }
