@@ -1,0 +1,53 @@
+
+
+
+.element3 {
+    color: orange;
+}
+
+.text {
+    min-width: 500px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.text_title {
+    text-align: center;
+    position: relative;
+    left: -20px;
+    font-size: 30px;
+}
+
+.examples_photos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 100px 30px 100px;
+}
+
+.examples_photos_image {
+    width: 250px;
+    height: 200px;
+    min-width: 250px;
+    min-height: 200pxs;
+    margin: 10px;
+    transition: 1s;
+}
+
+.examples_photos_image:hover {
+    transform: scale(1.2);
+}
+
+.text_image1 {
+    margin: 20px 0px 20px 20px;
+    float: right;
+}
+
+@media screen and (max-device-width:560px) {
+    .examples_photos_image {
+        width: 550px;
+        height: 550px;
+    }
+}

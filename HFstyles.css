@@ -1,0 +1,170 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 190px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_image {
+    margin-left: 30px;
+}
+
+.header_StroimDom {
+    color: orange;
+    padding: 10px;
+}
+
+.header_contacts_first {
+    color: rgb(68, 68, 68);
+    min-width: 170px;
+    padding: 10px;
+}
+
+.header_contacts_second {
+    color: rgb(68, 68, 68);
+    min-width: 270px;
+    padding: 10px;
+}
+
+.orange-colored-text {
+    color: orange;
+}
+
+.header_contacts_mail {
+    font-size: 20px;
+}
+
+.header_button {
+    align-self: center;
+    max-width: 290px;
+    padding: 30px 20px;
+    border-radius: 5px;
+    background-color: orange;
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    font-size: 20px;
+    font-weight: bolder;
+    word-wrap: normal;
+    user-select: none;
+    text-align: center;
+}
+
+.header_button:hover {
+    background-color: rgb(56, 55, 55);
+    color: white;
+}
+
+.menu {
+    margin-top: 10px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: rgb(56, 55, 55);
+    height: 70px;
+    line-height: 40px;
+    min-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    min-width: 840px;
+}
+
+
+.menu-element {
+    float: right;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(56, 55, 55);
+    font-size: large;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-right: 2px solid rgb(143, 142, 142);
+    color: white;
+}
+
+.element5 {
+    border: 1px solid rgb(56, 55, 55);
+    margin-right: 20px;
+}
+
+
+
+.menu-element:hover {
+    color: orange;
+}
+
+.footer {
+    background-color: rgb(56, 55, 55);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_text {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 70px;
+}
+
+.quotes {
+    quotes: "\00ab""\00bb";
+}
+
+.footer_img {
+    right: 500px;
+    top: 100%;
+}
+
+
+
+@media (max-width: 1230px) {
+    .header{
+        margin-top: 50px;
+    }
+    
+    .header_contacts_first, .header_contacts_second{
+        display: none;
+    }
+    .intro_sections_logo {
+        display: none;
+    }
+    .menu {
+        margin-top: 50px;
+        justify-content: center;
+        height: 130px;
+    }
+    
+    
+}
+/* Так как не всегда мобильное устройство отображается как device */
+@media screen and (max-device-width:560px) {
+    .header_StroimDom {
+        font-size: 50px;
+    }
+    .header_button {
+        font-size: 25px;
+    }
+    .menu-element {
+        font-size: 23px;
+        font-weight: bold;
+        padding: 40px 25px;
+    }
+    .footer {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footer_text {
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        align-self: center;
+        padding-bottom: 50px;
+    }
+}
+ 
