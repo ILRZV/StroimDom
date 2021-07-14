@@ -136,6 +136,31 @@
     transform: scale(1.2);
 }
 
+
+.imageGallery {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.shownImage {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6px;
+}
+
+.presetImages {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
 @media screen and (max-device-width:560px) {
     .intro_sections_info {
         font-size: 30px;
@@ -196,4 +221,6 @@
         justify-content: center;
         
     }
+
+
 }
